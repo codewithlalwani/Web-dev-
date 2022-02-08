@@ -1,0 +1,140 @@
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+#main{
+    height:100%;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+
+   
+}
+
+#com{
+    font-family: 'Romerio', sans-serif;
+     font-size: 22px; 
+     font-weight: 200;  
+
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left:300px;
+    padding-right: 300px;
+   
+    align-items: center;
+    
+    height: 40px;
+    width:100%;
+    background-color:white;
+}
+
+
+
+#nav a{
+   
+    text-decoration: none;
+     font-weight: 100;
+    color:rgb(44, 43, 43);
+    font-size: 13px;
+
+}
+
+i{
+    color:rgb(44, 43, 43) ;
+}
+
+i:hover{
+    color:black;
+    transform: scale(1.2);
+}
+
+#nav a:hover{
+    color:black;
+    transition: scale(1.1);
+}
+
+#up{
+   
+    height:65%;
+    width:100%;
+    background-color: black;
+   
+    text-align: center;
+}
+
+#text1{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 10%;
+   
+}
+
+
+
+
+
+h1{
+    animation: mymove 6s infinite;
+    transition: transform .2s;
+    font-size: 90px;
+    font-family: 'Romerio', sans-serif;
+    color: silver;
+}
+
+#h1:hover{
+    transform: scale(1.1);
+
+}
+
+@keyframes mymove {
+    from {color: silver;}
+    to {color: red;}
+  }
+
+h5{
+    color: rgb(243, 160, 160);
+}
+
+#down{
+   
+    height: 32.5%;
+    width: 100%;
+    background-color: brown;
+}
+
+#top{
+    position: absolute;
+    height:260px;
+    width:470px;
+    
+    margin-top:380px;
+    margin-left: 36%;
+}
+
+#a{
+    height:90%;
+    
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 500px) {
+    body {
+     
+          width: 100%;
+      
+    }
+  }
